@@ -2,7 +2,7 @@
 int main()
 {
     double num = 12345.6789;
-    scanf("%4lf",&num);
+    scanf("%lf",&num);
     printf("You entered: %.4lf\n",num);
     return 0;
 }
