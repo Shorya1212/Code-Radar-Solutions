@@ -2,7 +2,7 @@
 int main()
 {
     double num[100];
-    scanf("%lf",&num);
-    printf("You entered: %lf\n",num);
+    scanf("%2.lf",&num);
+    printf("You entered: %2.lf\n",num);
     return 0;
 }
