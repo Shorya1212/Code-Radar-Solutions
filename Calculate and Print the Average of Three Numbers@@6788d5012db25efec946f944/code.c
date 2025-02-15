@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main(){
-    int num1; num2; num3; average;
-    scanf("%d %d %d", &num1, &num2, &num3);
-    int sum = num1 + num2 + num3;
-    float average = float(sum) / 3;
-    printf("average: %.2f\n",average);
-    return 0;
+int a,b,c;
+scanf("%d %d %d",&a,&b,&c);
+double avg = (a+bc)/3.0
+printf("Average: %.2f",avg)
+return 0;
 }
