@@ -2,6 +2,6 @@
 int main()
 {
     int r = 10;
-    printf("the area of circle with radius %d is %f",r,3.14*r*r);
+    printf("the area of circle  %d is %f",r,3.14*r*r);
     return 0;
 }
