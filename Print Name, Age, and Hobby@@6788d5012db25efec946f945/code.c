@@ -6,17 +6,17 @@ int main() {
   char hobby[50]; 
 
   printf("Enter your name: ");
-  scanf("%ch",  name); 
+  scanf("%s", name); 
 
   printf("Enter your age: ");
   scanf("%d", &age);
 
   printf("Enter your hobby: ");
-  scanf("%ch", hobby);
+  scanf("%s", hobby);
 
-  printf("Name: %ch\n", name);
+  printf("Name: %s\n", name);
   printf("Age: %d\n", age);
-  printf("Hobby: %ch\n", hobby);
+  printf("Hobby: %s\n", hobby);
 
   return 0;
 }
