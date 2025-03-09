@@ -6,8 +6,8 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &num);
 
-    printf("Hexadecimal: %X\n", num); // %X for uppercase hexadecimal
-    printf("Octal: %o\n", num);       // %o for octal
+    printf("Hexadecimal: %X\n", num);
+    printf("Octal: %o\n", num);
 
     return 0;
 }
